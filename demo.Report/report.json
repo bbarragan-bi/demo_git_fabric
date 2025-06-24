@@ -27,20 +27,20 @@
       "name": "3ab3c027cd4a2b2568c2",
       "visualContainers": [
         {
-          "config": "{\"name\":\"4a5ba2910c03b93325a6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":284.44444444444446,\"y\":132.26666666666668,\"z\":0,\"width\":928.7111111111111,\"height\":536.1777777777778,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Avg(cotacoes.Cotacao)\"}],\"Category\":[{\"queryRef\":\"calendário.Data\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"cotacoes\",\"Type\":0},{\"Name\":\"c1\",\"Entity\":\"calendário\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Cotacao\"}},\"Function\":1},\"Name\":\"Avg(cotacoes.Cotacao)\",\"NativeReferenceName\":\"Average of Cotacao\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"Data\"},\"Name\":\"calendário.Data\",\"NativeReferenceName\":\"Data\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"Data\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"4a5ba2910c03b93325a6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":664.1777777777778,\"y\":132.26666666666668,\"z\":0,\"width\":510.5777777777778,\"height\":298.6666666666667,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Avg(cotacoes.Cotacao)\"}],\"Category\":[{\"queryRef\":\"calendário.Data\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"cotacoes\",\"Type\":0},{\"Name\":\"c1\",\"Entity\":\"calendário\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Cotacao\"}},\"Function\":1},\"Name\":\"Avg(cotacoes.Cotacao)\",\"NativeReferenceName\":\"Average of Cotacao\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"Data\"},\"Name\":\"calendário.Data\",\"NativeReferenceName\":\"Data\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"Data\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
-          "height": 536.18,
-          "width": 928.71,
-          "x": 284.44,
+          "height": 298.67,
+          "width": 510.58,
+          "x": 664.18,
           "y": 132.27,
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"e9bed098303c0d313b63\",\"layouts\":[{\"id\":0,\"position\":{\"x\":59.733333333333334,\"y\":132.26666666666668,\"z\":1,\"width\":224.7111111111111,\"height\":536.1777777777778}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"moedas.Moeda\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"moedas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Moeda\"},\"Name\":\"moedas.Moeda\",\"NativeReferenceName\":\"Moeda\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Moeda\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"moedas\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Moeda\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'USD'\"}}]]}}}]}}}}]}}}",
+          "config": "{\"name\":\"e9bed098303c0d313b63\",\"layouts\":[{\"id\":0,\"position\":{\"x\":415.2888888888889,\"y\":132.26666666666668,\"z\":1,\"width\":224.7111111111111,\"height\":351.2888888888889}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"moedas.Moeda\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"moedas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Moeda\"},\"Name\":\"moedas.Moeda\",\"NativeReferenceName\":\"Moeda\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Moeda\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"moedas\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Moeda\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'USD'\"}}]]}}}]}}}}]}}}",
           "filters": "[]",
-          "height": 536.18,
+          "height": 351.29,
           "width": 224.71,
-          "x": 59.73,
+          "x": 415.29,
           "y": 132.27,
           "z": 1.00
         }

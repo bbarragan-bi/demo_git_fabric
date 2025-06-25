@@ -1,4 +1,4 @@
-table calendário
+table calendario
 	lineageTag: d8a6ca81-42e1-4f11-9c84-e077bda439cb
 
 	column Data
@@ -45,7 +45,7 @@ table calendário
 
 		annotation UnderlyingDateTimeDataType = Date
 
-	partition calendário = m
+	partition calendario = m
 		mode: import
 		queryGroup: Dimensões
 		source = ```
@@ -80,6 +80,8 @@ table calendário
 				in
 				    calendario
 				```
+
+	changedProperty = Name
 
 	annotation PBI_NavigationStepName = Navigation
 

@@ -8,9 +8,9 @@ relationship AutoDetected_feeec602-fdb1-41d2-85ab-41fad30fd247
 
 relationship d9ec8909-ec58-a687-c956-82a16693141c
 	fromColumn: transacoes.Data
-	toColumn: calendário.Data
+	toColumn: calendario.Data
 
 relationship c45e0c9e-05a5-5797-9c74-501cb2245ec0
 	fromColumn: cotacoes.Data
-	toColumn: calendário.Data
+	toColumn: calendario.Data
 
